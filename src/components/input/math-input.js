@@ -1005,7 +1005,7 @@ const fontSizePt = 12;
 // edge of the input, so we use this 20px number as our 'base height' and
 // account for the ascender and descender padding when computing the additional
 // padding in our `render` method.
-const numeralHeightPx = 40;
+const numeralHeightPx = 80;
 const totalDesiredPadding = 4;
 const minHeightPx = numeralHeightPx + totalDesiredPadding * 2;
 const minWidthPx = 64;
